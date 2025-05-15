@@ -1,6 +1,21 @@
+# Ignore node modules directory
 /node_modules/
+
+# Ignore types directory
 /types
+
+# Ignore build directory
+/build
+/dist
+
+# Ignore .DS_Store files
 .DS_Store
+
+# Ignore all css files in the root directory
 /*.css
+
+# Ignore index.js file
 index.js
+
+# Ignore index.mjs file
 index.mjs
