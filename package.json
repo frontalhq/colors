@@ -26,7 +26,10 @@
     "prepare": "husky install",
     "style:init": "npx @frontal/style-guide init",
     "style:check": "npx @frontal/style-guide lint",
-    "style:fix": "npx @frontal/style-guide format"
+    "style:fix": "npx @frontal/style-guide format",
+    "changeset:init": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "pnpm build && changeset publish"
   },
   "keywords": ["frontal", "colors", "tailwind", "css"],
   "sideEffects": false,
