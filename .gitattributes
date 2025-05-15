@@ -1,0 +1,32 @@
+# Ensure consistent line endings
+* text=auto eol=lf
+
+# Mark lock files as text
+*.lock text
+
+# Treat all JS/TS files as UTF-8 text
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.jsx text eol=lf
+
+# Exclude build artifacts from language stats
+/build/* linguist-vendored
+/dist/* linguist-vendored
+
+# Exclude minified files from diffs
+*.min.js diff=none
+*.min.css diff=none
+
+# Treat shell scripts as text
+*.sh text eol=lf
+
+# Treat markdown and config files as text
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.cts text eol=lf
+*.d.ts text eol=lf 
