@@ -1,22 +1,24 @@
 {
-	"compilerOptions": {
-		"target": "ES2020",
-		"module": "ESNext",
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
-		"moduleResolution": "bundler",
-		"allowImportingTsExtensions": true,
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"noEmit": true,
-		"strict": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noFallthroughCasesInSwitch": true,
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["./src/*"],
-			"@tests/*": ["./tests/*"]
-		}
-	},
-	"include": ["./src", "./tests", "./scripts"]
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@tests/*": ["./tests/*"],
+      "@root/*": ["./*"]
+    },
+    "strictNullChecks": true
+  },
+  "include": ["./src", "./tests", "./scripts"]
 }
