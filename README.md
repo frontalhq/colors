@@ -2,9 +2,7 @@
 
 # Frontal Colors
 
-**A gorgeous, accessible color system.**
-
----
+A gorgeous, accessible color system.
 
 ## Documentation
 
@@ -12,4 +10,4 @@ For full documentation, visit [frontal.com/design/colors](https://frontal.com/de
 
 ## Installation
 
-`yarn add @frontal/colors`
+`pnpm add git+https://github.com/frontalhq/style-guide.git`
