@@ -10,4 +10,4 @@ For full documentation, visit [frontal.com/design/colors](https://frontal.com/de
 
 ## Installation
 
-`pnpm add git+https://github.com/frontalhq/style-guide.git`
+`pnpm add git+https://github.com/frontalhq/colors.git`
