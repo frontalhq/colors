@@ -18,7 +18,8 @@
       "@tests/*": ["./tests/*"],
       "@root/*": ["./*"]
     },
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["./src", "./tests", "./scripts"]
 }
