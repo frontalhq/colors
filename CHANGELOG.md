@@ -1,5 +1,15 @@
 # v1.0.0 (Thu May 15 2025)
 
+## 0.0.2
+
+### Patch Changes
+
+- chore: improve project configuration and tooling
+
+  - Add forceConsistentCasingInFileNames to TypeScript config
+  - Add changeset scripts for versioning and publishing
+  - Update git configuration and ignore patterns
+
 ## 1.0.0
 
 ### Major Changes
